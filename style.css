@@ -1,8 +1,8 @@
-/* Sparkle-inspired yellow gradient background with centered layout */
+/* Gradient background between medium pink and golden orange */
 body {
   margin: 0;
   padding: 0;
-  background: linear-gradient(135deg, #f9cd3d, #ffdf6c);
+  background: linear-gradient(135deg, #e85cac, #f7a140);
   font-family: 'Poppins', sans-serif;
   display: flex;
   justify-content: center;
@@ -24,12 +24,12 @@ h1 {
   margin-bottom: 1rem;
 }
 
-/* Image styling with soft glow and playful roundness */
+/* Logo styling: size, rounding, shadow */
 img {
   max-width: 90vw;
-  max-height: 75vh;
+  max-height: 45vh;
   height: auto;
   width: auto;
-  border-radius: 2vh;
-  box-shadow: 0 0.1vh 0.3vh rgba(0, 0, 0, 0.25);
+  border-radius: 2rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
 }
