@@ -1,6 +1,7 @@
 /* Light pale background behind the body in case of transparency overlap */
 html {
   background-color: #eaf6ff;
+  overflow: hidden;
 }
 
 /* Blue gradient background for the splash page */
@@ -43,7 +44,13 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 100svh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
   text-align: center;
 }
 
@@ -87,6 +94,7 @@ footer {
   font-weight: 600;
   color: cyan;
   padding: 0.5rem;
+  z-index: 10;
 }
 
 footer a {
