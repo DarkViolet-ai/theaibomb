@@ -7,12 +7,37 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background: linear-gradient(
-    180deg,
-    rgba(10, 41, 97, 1),     /* Deep navy blue at top */
-    rgba(32, 91, 190, 1),    /* Medium azure */
-    rgba(85, 165, 255, 1)    /* Light electric blue at bottom */
+
+  /* fallback solid color */
+  background: hsla(257, 94%, 46%, 1);
+
+  /* modern gradient declarations */
+  background: linear-gradient(45deg,
+    hsla(257, 94%, 46%, 1) 0%,
+    hsla(228, 69%, 49%, 1) 36%,
+    hsla(224, 87%, 40%, 1) 63%,
+    hsla(255, 57%, 45%, 1) 100%
   );
+
+  background: -moz-linear-gradient(45deg,
+    hsla(257, 94%, 46%, 1) 0%,
+    hsla(228, 69%, 49%, 1) 36%,
+    hsla(224, 87%, 40%, 1) 63%,
+    hsla(255, 57%, 45%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(45deg,
+    hsla(257, 94%, 46%, 1) 0%,
+    hsla(228, 69%, 49%, 1) 36%,
+    hsla(224, 87%, 40%, 1) 63%,
+    hsla(255, 57%, 45%, 1) 100%
+  );
+
+  /* legacy IE support (not relevant for modern browsers but kept for completeness) */
+  filter: progid:DXImageTransform.Microsoft.gradient(
+    startColorstr="#4607E6", endColorstr="#274AD5", GradientType=1
+  );
+
   font-family: 'Poppins', sans-serif;
   display: flex;
   justify-content: center;
