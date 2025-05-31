@@ -1,8 +1,8 @@
-/* Bright yellow from the sparkle in the image */
+/* Sparkle-inspired yellow gradient background with centered layout */
 body {
   margin: 0;
   padding: 0;
-  background-color: #f9cd3d;
+  background: linear-gradient(135deg, #f9cd3d, #ffdf6c);
   font-family: 'Poppins', sans-serif;
   display: flex;
   justify-content: center;
@@ -24,9 +24,12 @@ h1 {
   margin-bottom: 1rem;
 }
 
+/* Image styling with soft glow and playful roundness */
 img {
   max-width: 90vw;
-  max-height: 60vh;
+  max-height: 75vh;
   height: auto;
   width: auto;
+  border-radius: 2vh;
+  box-shadow: 0 0.1vh 0.3vh rgba(0, 0, 0, 0.25);
 }
