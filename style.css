@@ -84,13 +84,13 @@ footer {
   width: 100%;
   text-align: center;
   font-size: 0.75rem;
-  color: #ffffffcc;
+  color: cyan;
   padding: 0.5rem;
   font-family: 'Poppins', sans-serif;
 }
 
 footer a {
-  color: #ffffffcc;
+  color: cyan;
   text-decoration: none;
 }
 
