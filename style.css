@@ -7,7 +7,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-    box-shadow: inset 0 0 60px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0 0 0.8vh rgba(0, 0, 0, 0.7);
 
   /* fallback solid color */
   background: hsla(257, 94%, 46%, 1);
@@ -74,9 +74,7 @@ color: deeppink;
   padding: 1rem;
   font-weight: 700;
   text-shadow:
-  0 0 5px #ff1493,
-  0 0 10px #ff1493,
-  0 0 15px #ff1493,
-  0 0 20px rgba(0,0,0,0.25);
+    1px 1px 4px rgba(0, 0, 0, 0.6),    /* dark outer shadow */
+    0 0 10px rgba(255, 105, 180, 0.5); /* inner pink glow */
 }
 
