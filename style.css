@@ -78,3 +78,24 @@ color: deeppink;
     0 0 10px rgba(255, 105, 180, 0.5); /* inner pink glow */
 }
 
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 0.75rem;
+  color: #ffffffcc;
+  padding: 0.5rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+footer a {
+  color: #ffffffcc;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+
