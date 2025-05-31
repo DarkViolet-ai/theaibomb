@@ -1,14 +1,16 @@
+/* Light yellow background behind the body */
+html {
+  background-color: #fff9e6;
+}
 
-
-/* Gradient background between medium pink, golden yellow, and deep orange with rgba for opacity control */
 body {
   margin: 0;
   padding: 0;
   background: linear-gradient(
-    135deg,
-    rgba(232, 92, 172, 0.5),  /* medium pink */
-    rgba(249, 205, 61, 0.5),  /* golden yellow */
-    rgba(244, 140, 6, 0.5)    /* deep orange */
+    315deg, /* opposite of 135deg */
+    rgba(244, 140, 6, 0.9),   /* deep orange - top left */
+    rgba(249, 205, 61, 0.9),  /* golden yellow - middle */
+    rgba(232, 92, 172, 0.9)   /* medium pink - bottom right */
   );
   font-family: 'Poppins', sans-serif;
   display: flex;
