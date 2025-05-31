@@ -1,8 +1,13 @@
-/* Gradient background between medium pink and golden orange */
+/* Gradient background between medium pink, golden yellow, and deep orange with rgba for opacity control */
 body {
   margin: 0;
   padding: 0;
-  background: linear-gradient(135deg, #e85cac, #f9cd3d, #f48c06);
+  background: linear-gradient(
+    135deg,
+    rgba(232, 92, 172, 0.9),  /* medium pink */
+    rgba(249, 205, 61, 0.9),  /* golden yellow */
+    rgba(244, 140, 6, 0.9)    /* deep orange */
+  );
   font-family: 'Poppins', sans-serif;
   display: flex;
   justify-content: center;
@@ -24,7 +29,7 @@ h1 {
   margin-bottom: 1rem;
 }
 
-/* Logo styling: size, rounding, shadow */
+/* Logo styling: size, rounding, shadow, and dark border */
 img {
   max-width: 90vw;
   max-height: 45vh;
@@ -32,4 +37,5 @@ img {
   width: auto;
   border-radius: 2rem;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+  border: 2px solid rgba(0, 0, 0, 0.6);
 }
