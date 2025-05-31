@@ -6,7 +6,7 @@ This is a simple placeholder splash page for [theAIBomb.com](https://theaibomb.c
 
 - Fully responsive design
 - Bright yellow background inspired by the site's logo
-- Centered "Coming soon" message and logo image
+- Centered "Wait for it" message and logo image
 
 ### Instructions
 
