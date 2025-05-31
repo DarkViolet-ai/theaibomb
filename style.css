@@ -7,10 +7,10 @@ body {
   margin: 0;
   padding: 0;
   background: linear-gradient(
-    315deg, /* opposite of 135deg */
-    rgba(244, 140, 6, 0.9),   /* deep orange - top left */
-    rgba(249, 205, 61, 0.9),  /* golden yellow - middle */
-    rgba(232, 92, 172, 0.9)   /* medium pink - bottom right */
+    180deg, /* bottom (pink) → top (gold) */
+    rgba(232, 92, 172, 0.9),   /* medium pink */
+    rgba(244, 140, 6, 0.9),    /* deep orange */
+    rgba(249, 205, 61, 0.9)    /* golden yellow */
   );
   font-family: 'Poppins', sans-serif;
   display: flex;
