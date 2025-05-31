@@ -83,10 +83,10 @@ footer {
   bottom: 0;
   width: 100%;
   text-align: center;
-  font-size: 0.75rem;
+  font-size: 1.2vh;
+  font-weight: 600;
   color: cyan;
   padding: 0.5rem;
-  font-family: 'Poppins', sans-serif;
 }
 
 footer a {
